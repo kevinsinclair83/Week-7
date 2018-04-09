@@ -16,14 +16,14 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) 
-  - ![XSS Vulverability ] Summary: 
+2. (Required) 
+  - ![XSS Vulnerability ] Summary: 
   - Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.0
     - Fixed in version: 4.6
   - ![XSS](https://github.com/kevinsinclair83/Week-7/blob/master/xssvulnerability.gif)GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: I was able to make a text comment with my name on a post by utilizing the code `<script>alert("Kevin Sinclair")</script>`. 
   
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
  3. Persistent XSS exploit commenting as an unauthenticated user (CVE-2015-3440)
