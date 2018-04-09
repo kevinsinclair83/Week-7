@@ -12,7 +12,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: User Enumeration
     - Tested in version: 4.2
     - Fixed in version: 4.7.2
-  - [ ] GIF Walkthrough: 
+  - ![User Enumeration](https://github.com/0v3rride/Week-7/blob/master/W7_User_Enumeration(1).gif)GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
