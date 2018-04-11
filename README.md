@@ -17,7 +17,7 @@ Time spent: **X** hours spent in total
   
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 2. (Required) 
-  - ![XSS Vulnerability ] Summary: 
+  - Summary: ![XSS Vulnerability ] 
   - Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.0
@@ -26,7 +26,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: I was able to make a text comment with my name on a post by utilizing the code `<script>alert("Kevin Sinclair")</script>`. 
   
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
- 3. Persistent XSS exploit commenting as an unauthenticated user (CVE-2015-3440)
+ 3. Persistent XSS exploit commenting as an authenticated user (CVE-2015-3440)
   - Summary: 
     - Vulnerability types: Persistent XSS
     - Tested in version: 4.0
@@ -40,7 +40,7 @@ Time spent: **X** hours spent in total
 ## Assets
 
 List any additional assets, such as scripts or files
-
+https://klikki.fi/adv/wordpress2.html
 ## Resources
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
@@ -50,11 +50,11 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+The main challenge for this week's tasks was the setup and configuration of the Kali/Linux VM, Vagrant, and Wordpress. This took many attempts before succesful.   
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [kevinsinclair83]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
